@@ -1,0 +1,54 @@
+#app2{
+    background-color: rgb(213, 187, 237);
+
+
+}
+#app2 .tab-bar {
+    display: flex;
+  
+  }
+  #app2 .tab-bar >li{
+    width: 50%;
+    border: 1px blue solid;
+  }
+#app2 .tab-bar > li.selected{
+    background-color: greenyellow;
+    color:white
+}
+#app2 .tab-content{
+
+}
+#app2 .tab-content> li{
+    display: none;
+}
+#app2 .tab-content> li.active{
+    display: block;
+}
+
+#app1{
+    background-color: aquamarine;
+    width:50vw;
+    height: 50vh;
+    
+}
+#app1.outpu{
+   
+}
+#app1.actions{
+       
+}
+*{margin: 0;padding: 0;}
+ol,ul{list-style: none;}
+body{
+    overflow: hidden;
+}
+#page{
+    display: flex;
+    flex-wrap: wrap;
+}
+#page>section{
+    width: 50vw;
+    height: 50vh;
+   
+}
+/*# sourceMappingURL=index.aa5c880c.css.map */
